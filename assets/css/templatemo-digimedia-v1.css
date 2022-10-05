@@ -1472,8 +1472,6 @@ Services Style
 
 .services .naccs .menu div.active {
  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
- bac
- mnbhbh
 }
 
 .services ul.nacc {
@@ -2279,10 +2277,19 @@ responsive
  height: 100%;
 }
 
+@media screen and (max-width: 768px) {
+ .customCards {
+  height: 100%;
+ }
+}
+@media screen and (min-width: 768px) {
+ .customCards {
+  height: 250px;
+ }
+}
+
 .customCards :hover {
- background-color: #2a0585;
  border-radius: 10px;
- color: white;
 }
 
 .partnersCard {
