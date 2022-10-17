@@ -1449,6 +1449,12 @@ Services Style
  margin-bottom: 30px;
 }
 
+@media screen and (max-width: 660px) {
+ .services .naccs .menu {
+  display: grid;
+ }
+}
+
 .services .naccs .menu div {
  color: #2a2a2a;
  margin: 0px;
@@ -1468,8 +1474,15 @@ Services Style
  width: 100%;
  padding: 30px 0px;
  background-color: #fff;
+
 }
 
+@media screen and (max-width: 660px) {
+ .services .naccs .menu div .thumb {
+  margin-left: 10vw;
+ }
+}
+  
 .services .naccs .menu div.active {
  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
 }
@@ -2220,7 +2233,8 @@ responsive
   padding: 45px;
  }
  .services .naccs .menu div {
-  font-size: 0px;
+  font-size: 20px;
+  width: fit-content;
  }
  .services ul.nacc li .right-image img {
   float: none;
