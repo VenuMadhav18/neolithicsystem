@@ -214,12 +214,12 @@ body {
 }
 
 ::selection {
- background: #fa65b1;
+ background: #260bbd;
  color: #fff !important;
 }
 
 ::-moz-selection {
- background: #fa65b1;
+ background: #260bbd;
  color: #fff !important;
 }
 
@@ -279,8 +279,8 @@ body {
 .border-first-button a {
  display: inline-block !important;
  padding: 10px 20px !important;
- color: #fa65b1 !important;
- border: 1px solid #fa65b1 !important;
+ color: #260bbd !important;
+ border: 1px solid #260bbd !important;
  border-radius: 23px;
  font-weight: 500 !important;
  letter-spacing: 0.3px !important;
@@ -288,7 +288,7 @@ body {
 }
 
 .border-first-button a:hover {
- background-color: #fa65b1;
+ background-color: #260bbd;
  color: #fff !important;
 }
 
@@ -356,8 +356,8 @@ intro
 .intro-banner a {
  display: inline-block !important;
  padding: 10px 20px !important;
- color: #fa65b1 !important;
- border: 1px solid #fa65b1 !important;
+ color: #260bbd !important;
+ border: 1px solid #260bbd !important;
  border-radius: 23px;
  font-weight: 500 !important;
  letter-spacing: 0.3px !important;
@@ -367,7 +367,7 @@ intro
 }
 
 .intro-banner a:hover {
- background-color: #fa65b1;
+ background-color: #260bbd;
  color: #fff !important;
 }
 
@@ -425,7 +425,7 @@ header
 }
 
 .pre-header ul.info li a:hover {
- color: #fa65b1;
+ color: #260bbd;
 }
 
 .pre-header ul.info li a i {
@@ -455,7 +455,7 @@ header
 }
 
 .pre-header ul.social-media li a:hover {
- background-color: #fa65b1;
+ background-color: #260bbd;
 }
 
 .background-header {
@@ -474,7 +474,7 @@ header
 }
 
 .background-header .main-nav .nav li:hover a {
- color: #fa65b1;
+ color: #260bbd;
 }
 
 .background-header .nav li a.active {
@@ -486,7 +486,7 @@ header
  position: absolute;
  width: 100%;
  height: 1px;
- background-color: #fa65b1;
+ background-color: #260bbd;
  content: "";
  left: 50%;
  bottom: -20px;
@@ -593,12 +593,12 @@ header
 
 .header-area .main-nav .nav li:hover a,
 .header-area .main-nav .nav li a.active {
- color: #fa65b1 !important;
+ color: #260bbd !important;
 }
 
 .background-header .main-nav .nav li:hover a,
 .background-header .main-nav .nav li a.active {
- color: #fa65b1 !important;
+ color: #260bbd !important;
  opacity: 1;
 }
 
@@ -661,7 +661,7 @@ header
 
 .header-area .main-nav .nav li.submenu ul li a:hover {
  background: #fff;
- color: #fa65b1 !important;
+ color: #260bbd !important;
  padding-left: 25px;
 }
 
@@ -801,7 +801,7 @@ header
 }
 
 .header-area.header-sticky .nav li a.active {
- color: #fa65b1;
+ color: #260bbd;
 }
 
 @media (max-width: 1200px) {
@@ -840,7 +840,7 @@ header
  }
  .header-area.header-sticky .nav li a:hover,
  .header-area.header-sticky .nav li a.active {
-  color: #fa65b1 !important;
+  color: #260bbd !important;
   opacity: 1;
  }
  .header-area.header-sticky .nav li.search-icon a {
@@ -902,7 +902,7 @@ header
  }
  .header-area .main-nav .nav li a:hover {
   background: #eee !important;
-  color: #fa65b1 !important;
+  color: #260bbd !important;
  }
  .header-area .main-nav .nav li.submenu ul {
   position: relative;
@@ -1017,7 +1017,7 @@ preloader
  height: 16px;
  top: 12px;
  left: 15px;
- background: #fa65b1;
+ background: #260bbd;
  border-radius: 50%;
  -webkit-transform: translateX(0);
  transform: translateX(0);
@@ -1040,7 +1040,7 @@ preloader
  width: 16px;
  height: 16px;
  margin-left: 16px;
- background: #fa65b1;
+ background: #260bbd;
  border-radius: 50%;
 }
 
@@ -1091,7 +1091,7 @@ Banner Style
  text-transform: capitalize;
  font-size: 20px;
  font-weight: 700;
- color: #fa65b1;
+ color: #260bbd;
  margin-bottom: 15px;
  text-transform: uppercase;
 }
@@ -1195,7 +1195,7 @@ About Style
 }
 
 .first-skill-item .progress .progress-bar {
- border-color: #fa65b1;
+ border-color: #260bbd;
 }
 
 .second-skill-item .progress .progress-bar {
@@ -1449,6 +1449,12 @@ Services Style
  margin-bottom: 30px;
 }
 
+@media screen and (max-width: 660px) {
+ .services .naccs .menu {
+  display: grid;
+ }
+}
+
 .services .naccs .menu div {
  color: #2a2a2a;
  margin: 0px;
@@ -1468,8 +1474,15 @@ Services Style
  width: 100%;
  padding: 30px 0px;
  background-color: #fff;
+
 }
 
+@media screen and (max-width: 660px) {
+ .services .naccs .menu div .thumb {
+  margin-left: 10vw;
+ }
+}
+  
 .services .naccs .menu div.active {
  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
 }
@@ -1693,7 +1706,7 @@ Portfolio
 
 .portfolio-item:hover .down-content h4,
 .portfolio-item:hover .down-content span {
- color: #fa65b1;
+ color: #260bbd;
 }
 
 .portfolio-item .thumb img {
@@ -1751,7 +1764,7 @@ Portfolio
 
 .our-portfolio .owl-nav span:hover {
  color: #fff;
- background-color: #fa65b1;
+ background-color: #260bbd;
 }
 
 /* 
@@ -2004,7 +2017,7 @@ form#contact #map iframe {
 }
 
 .fill-form .icon:hover a {
- color: #fa65b1;
+ color: #260bbd;
 }
 
 form#contact input {
@@ -2052,20 +2065,20 @@ form#contact button {
  background-color: #fff;
  font-size: 15px;
  font-weight: 400;
- color: #fa65b1;
+ color: #260bbd;
  margin-top: 30px;
  width: 100%;
  text-transform: capitalize;
  padding: 12px 25px;
  border-radius: 23px;
  letter-spacing: 0.25px;
- border: 1px solid #fa65b1;
+ border: 1px solid #260bbd;
  transition: all 0.3s;
  outline: none;
 }
 
 form#contact button:hover {
- background-color: #fa65b1 !important;
+ background-color: #260bbd !important;
  color: #fff !important;
 }
 
@@ -2220,7 +2233,8 @@ responsive
   padding: 45px;
  }
  .services .naccs .menu div {
-  font-size: 0px;
+  font-size: 20px;
+  width: fit-content;
  }
  .services ul.nacc li .right-image img {
   float: none;
