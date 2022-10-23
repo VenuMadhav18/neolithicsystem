@@ -2337,3 +2337,19 @@ responsive
  height: 100%;
  border-radius: 10px;
 }
+
+@media screen and (max-width: 768px) {
+ .justifyCenter {
+  justify-content: center;
+ }
+ .industriesCards {
+  margin: 5px;
+ }
+ .sectionHeading {
+  font-size: 38px !important;
+ }
+}
+
+.justifyCenter > div > div {
+ padding-top: 10px !important;
+}
