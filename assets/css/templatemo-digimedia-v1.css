@@ -2325,3 +2325,15 @@ responsive
  margin: 3px;
  width: 100%;
 }
+
+.customSection {
+ padding-top: 130px;
+ padding-bottom: 50px;
+}
+.solutionCards {
+ padding: 10px;
+ margin: 10px;
+ box-shadow: 0 2px 4px 0 rgb(14, 3, 110), 0 3px 10px 0 rgb(26, 7, 97);
+ height: 100%;
+ border-radius: 10px;
+}
